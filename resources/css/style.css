@@ -1,12 +1,29 @@
-.header {
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
-.header h3 {
-  color: MediumAquamarine;
+div.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+.logo h3 {
+    color: MediumAquamarine;
+    padding-left: 10px;
 }
 nav {
+  padding-right: 30px;
+  justify-content: space-around;
+}
+nav span {
   display: inline-block;
+  padding: 20px 10px;
+}
+nav a {
+  color: black;
 }
