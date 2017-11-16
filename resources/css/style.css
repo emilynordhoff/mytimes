@@ -21,7 +21,7 @@ div.logo {
     color: MediumAquamarine;
     padding-left: 10px;
 }
-nav {
+#nav-header {
   padding-right: 30px;
   justify-content: space-around;
 }
@@ -122,13 +122,13 @@ footer {
   font-size: 16px;
   font-weight: bold;
   color: white;
-  padding-right: 20px;
+  padding: 10px 20px 10px 10px;
   border-right: 3px solid white;
   display: inline-block;
 }
-footer nav {
+#nav-footer {
   display: inline-block;
-  padding-left: 25px;
+  padding: 10px;
 }
 .copyright {
   text-align: center;
